@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 struct File{
 	char name[20];
 	struct File *next;
@@ -341,7 +340,6 @@ void twoLevel(){
 		
 	}
 }
-
 
 int main(){
 	
